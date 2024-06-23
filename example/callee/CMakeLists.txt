@@ -1,0 +1,8 @@
+# set(SRC_LIST userservice.cc ../user.pb.cc)
+set(SRC_LIST friendservice.cc ../friend.pb.cc)
+get_filename_component(PARENT_FOLDER ${CMAKE_CURRENT_SOURCE_DIR} DIRECTORY)
+get_filename_component(ROOT_FOLDER ${PARENT_FOLDER} DIRECTORY)
+include_directories(${PARENT_FOLDER})
+LINK_DIRECTORIES(${ROOT_FOLDER}/public/lib)
+add_executable(provider ${SRC_LIST})
+target_link_libraries(provider myrpc mytcp protobuf)

@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/Acceptor.cpp.o -c /home/river/work/httpserver/src/TcpServer/Acceptor.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/Acceptor.cpp"
+},
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/Channel.cpp.o -c /home/river/work/httpserver/src/TcpServer/Channel.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/Channel.cpp"
+},
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/Connection.cpp.o -c /home/river/work/httpserver/src/TcpServer/Connection.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/Connection.cpp"
+},
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/Epoll.cpp.o -c /home/river/work/httpserver/src/TcpServer/Epoll.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/Epoll.cpp"
+},
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/EventLoop.cpp.o -c /home/river/work/httpserver/src/TcpServer/EventLoop.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/EventLoop.cpp"
+},
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/InetAddress.cpp.o -c /home/river/work/httpserver/src/TcpServer/InetAddress.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/InetAddress.cpp"
+},
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/Socket.cpp.o -c /home/river/work/httpserver/src/TcpServer/Socket.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/Socket.cpp"
+},
+{
+  "directory": "/home/river/work/httpserver/build/src/TcpServer",
+  "command": "/usr/bin/c++ -Dmytcp_EXPORTS -I/home/river/work/httpserver/public/include/TcpServer -fPIC -std=gnu++14 -o CMakeFiles/mytcp.dir/TcpServer.cpp.o -c /home/river/work/httpserver/src/TcpServer/TcpServer.cpp",
+  "file": "/home/river/work/httpserver/src/TcpServer/TcpServer.cpp"
+}
+]

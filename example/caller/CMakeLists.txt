@@ -1,0 +1,6 @@
+# set(SRC_LIST calluserservice.cc ../user.pb.cc)
+set(SRC_LIST callfriendservice.cc ../friend.pb.cc)
+get_filename_component(PARENT_FOLDER ${CMAKE_CURRENT_SOURCE_DIR} DIRECTORY)
+include_directories(${PARENT_FOLDER})
+add_executable(consumer ${SRC_LIST})
+target_link_libraries(consumer myrpc protobuf)

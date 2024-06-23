@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.2)
+project(mytool)
+get_filename_component(PARENT_FOLDER ${CMAKE_CURRENT_SOURCE_DIR} DIRECTORY)
+get_filename_component(ROOT_FOLDER ${PARENT_FOLDER} DIRECTORY)
+set(SRC Buffer.cpp HttpParse.cpp ThreadPool.cpp Timestamp.cpp)
+set(INCLUDE_SOURCES
+    ${ROOT_FOLDER}/public/include/Tool)
+include_directories(${INCLUDE_SOURCES})
+add_library(mytool SHARED ${SRC})
+find_package(Threads REQUIRED)
+target_link_libraries(mytool mylog pthread)
+install(TARGETS mytool DESTINATION ${ROOT_FOLDER}/public/lib)
